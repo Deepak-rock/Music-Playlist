@@ -1,0 +1,49 @@
+p {
+  margin: 0;
+}
+.track-item {
+  padding: 20px 0;
+}
+.track-container {
+  display: flex;
+  justify-content: space-between;
+}
+.tracks-cart {
+  display: flex;
+  align-items: flex-end;
+  gap: 20px;
+}
+.music-img {
+  width: 200px;
+}
+.song-name {
+  font-size: 26px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #ffffff;
+  line-height: 1.4;
+}
+.song-genre {
+  font-size: 26px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #3b82f6;
+}
+.song-duration {
+  font-size: 20px;
+  font-family: 'Roboto';
+  color: #ffffff;
+}
+.duration-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 0 80px;
+}
+.delete-button {
+  background-color: transparent;
+  color: #cbd5e1;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
